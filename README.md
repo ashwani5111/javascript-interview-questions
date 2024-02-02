@@ -4003,11 +4003,14 @@
        writable: false,
      });
 
+
      console.log(newObject.newProperty); // 100
 
      newObject.newProperty = 200; // It throws an error in strict mode due to writable setting
      ```
 
+     
+ 
      **[⬆ Back to Top](#table-of-contents)**
 
 218. ### What is the difference between get and defineProperty
