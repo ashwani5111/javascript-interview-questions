@@ -3040,6 +3040,9 @@
 
      You can set breakpoints in the javascript code once the debugger statement is executed and the debugger window pops up. At each breakpoint, javascript will stop executing, and let you examine the JavaScript values. After examining values, you can resume the execution of code using the play button.
 
+     
+     
+
      **[⬆ Back to Top](#table-of-contents)**
 
 165. ### Can I use reserved words as identifiers
@@ -3115,7 +3118,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 169. ### How do you make synchronous HTTP request
-
+ 
      Browsers provide an XMLHttpRequest object which can be used to make synchronous HTTP requests from JavaScript
 
      ```javascript
@@ -3255,7 +3258,7 @@
 
      There are few more differences,
 
-     | feature    | Prototype                                                    | proto                                                      |
+     | feature          | Prototype    |    proto                                                      |
      | ---------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
      | Access     | All the function constructors have prototype properties.     | All the objects have \_\_proto\_\_ property                |
      | Purpose    | Used to reduce memory wastage with a single copy of function | Used in lookup chain to resolve methods, constructors etc. |
@@ -3304,7 +3307,7 @@
      const obj = {
        prop: 100,
      };
-
+      
      Object.freeze(obj);
      obj.prop = 200; // Throws an error in strict mode
 
@@ -3723,7 +3726,10 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
+
+
 203. ### What is a WeakSet
+<!-- not done -->
 
      WeakSet is used to store a collection of weakly(weak references) held objects. The syntax would be as follows,
 
@@ -3745,6 +3751,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 204. ### What are the differences between WeakSet and Set
+<!-- not done -->
 
      The main difference is that references to objects in Set are strong while references to objects in WeakSet are weak. i.e, An object in WeakSet can be garbage collected if there is no other reference to it.
      Other differences are,
@@ -3757,6 +3764,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 205. ### List down the collection of methods available on WeakSet
+<!-- not done -->
 
      Below are the list of methods available on WeakSet,
 
@@ -3780,6 +3788,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 206. ### What is a WeakMap
+<!-- not done -->
 
      The WeakMap object is a collection of key/value pairs in which the keys are weakly referenced. In this case, keys must be objects and the values can be arbitrary values. The syntax is looking like as below,
 
@@ -3801,6 +3810,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 207. ### What are the differences between WeakMap and Map
+<!-- not done -->
 
      The main difference is that references to key objects in Map are strong while references to key objects in WeakMap are weak. i.e, A key object in WeakMap can be garbage collected if there is no other reference to it.
      Other differences are,
@@ -3813,6 +3823,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 208. ### List down the collection of methods available on WeakMap
+<!-- not done -->
 
      Below are the list of methods available on WeakMap,
 
@@ -3980,6 +3991,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 217. ### How do you define property on Object constructor
+<!-- not done -->
 
      The Object.defineProperty() static method is used to define a new property directly on an object, or modify an existing property on an object, and returns the object. Let's see an example to know how to define property,
 
