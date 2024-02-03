@@ -4270,13 +4270,13 @@ console.log(dateFormatter.format(new Date())); // Output: 2/3/2024
      **[⬆ Back to Top](#table-of-contents)**
 
 234. ### What is an Iterator
-
+<!-- not done -->
      An iterator is an object which defines a sequence and a return value upon its termination. It implements the Iterator protocol with a `next()` method which returns an object with two properties: `value` (the next value in the sequence) and `done` (which is true if the last value in the sequence has been consumed).
 
      **[⬆ Back to Top](#table-of-contents)**
 
 235. ### How does synchronous iteration works
-
+<!-- not done -->
      Synchronous iteration was introduced in ES6 and it works with below set of components,
 
      **Iterable:** It is an object which can be iterated over via a method whose key is Symbol.iterator.
@@ -4296,11 +4296,13 @@ console.log(dateFormatter.format(new Date())); // Output: 2/3/2024
 
      **[⬆ Back to Top](#table-of-contents)**
 
+
 236. ### What is an event loop
 
-     The event loop is a process that continuously monitors both the call stack and the event queue and checks whether or not the call stack is empty. If the call stack is empty and there are pending events in the event queue, the event loop dequeues the event from the event queue and pushes it to the call stack. The call stack executes the event, and any additional events generated during the execution are added to the end of the event queue.
+    The event loop is a process that continuously monitors both the call stack and the event queue and checks whether or not the call stack is empty. If the call stack is empty and there are pending events in the event queue, the event loop dequeues the event from the event queue and pushes it to the call stack. The call stack executes the event, and any additional events generated during the execution are added to the end of the event queue.
 
-     **Note:** The event loop allows Node.js to perform non-blocking I/O operations, even though JavaScript is single-threaded, by offloading operations to the system kernel whenever possible. Since most modern kernels are multi-threaded, they can handle multiple operations executing in the background.
+    **Note:** The event loop allows Node.js to perform non-blocking I/O operations, even though JavaScript is single-threaded, by offloading operations to the system kernel whenever possible. Since most modern kernels are multi-threaded, they can handle multiple operations executing in the background.
+
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -4347,7 +4349,7 @@ console.log(dateFormatter.format(new Date())); // Output: 2/3/2024
      **[⬆ Back to Top](#table-of-contents)**
 
 239. ### What is a decorator
-
+<!-- not done -->
      A decorator is an expression that evaluates to a function and that takes the target, name, and decorator descriptor as arguments. Also, it optionally returns a decorator descriptor to install on the target object. Let's define admin decorator for user class at design time,
 
      ```javascript
