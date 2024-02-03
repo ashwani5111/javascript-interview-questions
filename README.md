@@ -3570,6 +3570,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 194. ### What is a proxy object
+    <!-- not done -->
 
      The Proxy object is used to define custom behavior for fundamental operations such as property lookup, assignment, enumeration, function invocation, etc. The syntax would be as follows,
 
@@ -3652,6 +3653,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 199. ### How do you get enumerable key and value pairs
+ <!-- not done -->
 
      The Object.entries() method is used to return an array of a given object's own enumerable string-keyed property [key, value] pairs, in the same order as that provided by a for...in loop. Let's see the functionality of object.entries() method in an example,
 
@@ -4033,6 +4035,7 @@
 
 220. ### Can I add getters and setters using defineProperty method
 
+<!-- not done -->
      Yes, You can use the `Object.defineProperty()` method to add Getters and Setters. For example, the below counter object uses increment, decrement, add and subtract properties,
 
      ```javascript
@@ -4071,7 +4074,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 221. ### What is the purpose of switch-case
-
+<!-- not done -->
      The switch case statement in JavaScript is used for decision making purposes. In a few cases, using the switch case statement is going to be more convenient than if-else statements. The syntax would be as below,
 
      ```javascript
@@ -4098,7 +4101,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 222. ### What are the conventions to be followed for the usage of switch case
-
+<!-- not done  -->
      Below are the list of conventions should be taken care,
 
      1. The expression can be of type either number or string.
@@ -4167,6 +4170,7 @@
 
 226. ### What is an error object
 
+
      An error object is a built in error object that provides error information when an error occurs. It has two properties: name and message. For example, the below function logs error details,
 
      ```javascript
@@ -4183,7 +4187,7 @@
 
      A SyntaxError is thrown if you try to evaluate code with a syntax error. For example, the below missing quote for the function parameter throws a syntax error
 
-     ```javascript
+     ```javascript 
      try {
        eval("greeting('welcome)"); // Missing ' will produce an error
      } catch (err) {
@@ -4194,6 +4198,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 228. ### What are the different error names from error object
+
 
      There are 6 different types of error names returned from error object,
      | Error Name | Description |
@@ -4219,7 +4224,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 230. ### What are the two types of loops in javascript
-
+<!-- not done -->
      1. **Entry Controlled loops:** In this kind of loop type, the test condition is tested before entering the loop body. For example, For Loop and While Loop comes under this category.
      2. **Exit Controlled Loops:** In this kind of loop type, the test condition is tested or evaluated at the end of the loop body. i.e, the loop body will execute at least once irrespective of test condition true or false. For example, do-while loop comes under this category.
 
@@ -4232,8 +4237,23 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 232. ### What is an Intl object
-
+<!-- not done -->
      The Intl object is the namespace for the ECMAScript Internationalization API, which provides language sensitive string comparison, number formatting, and date and time formatting. It provides access to several constructors and language sensitive functions.
+```javascript
+      const collator = new Intl.Collator('en-US');
+       console.log(collator.compare('apple', 'Banana')); // Output: 1 (indicating 'apple' comes after 'Banana' in the sorted order)
+
+```
+
+```javascript
+      const numberFormatter = new Intl.NumberFormat('en-US');
+      console.log(numberFormatter.format(1234567.89)); // Output: 1,234,567.89
+```
+
+```javascript
+    const dateFormatter = new Intl.DateTimeFormat('en-US');
+console.log(dateFormatter.format(new Date())); // Output: 2/3/2024
+```
 
      **[⬆ Back to Top](#table-of-contents)**
 
